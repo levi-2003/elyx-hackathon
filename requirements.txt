@@ -1,0 +1,20 @@
+# Python dependencies for Elyx Data Processor
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Optional: For advanced text processing
+nltk>=3.8.1
+spacy>=3.6.0
+
+# Optional: For data visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: For API development
+fastapi>=0.100.0
+uvicorn>=0.23.0
