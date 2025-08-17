@@ -18,3 +18,4 @@ seaborn>=0.12.0
 # Optional: For API development
 fastapi>=0.100.0
 uvicorn>=0.23.0
+langgraph>=0.0.48

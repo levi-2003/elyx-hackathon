@@ -7,9 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Xr8c1aJpAsA4QeUuXLCxDdTC5z8cEc-v
 """
 
-pip install langgraph requests
-
-API_KEY = "AIzaSyATXRs1ySzWhrT3CiWZaG6Ty7aCTy8kS7c"
+API_KEY = "your-api-key"
 
 import os
 import json
@@ -29,7 +27,7 @@ class GraphState(TypedDict):
     """Represents the state of our simulation graph, now on a weekly basis."""
     conversation_history: List[str]
     current_week: int
-    # FIX: Added current_date to the state to manage the timeline.
+
     current_date: str
     member_profile: Dict
     elyx_team: Dict
